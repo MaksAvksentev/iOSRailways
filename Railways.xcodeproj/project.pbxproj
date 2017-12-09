@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		280C187F1FDC9C710069AEEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280C187E1FDC9C710069AEEF /* AppDelegate.swift */; };
+		280C18811FDC9C710069AEEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280C18801FDC9C710069AEEF /* ViewController.swift */; };
+		280C18841FDC9C710069AEEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 280C18821FDC9C710069AEEF /* Main.storyboard */; };
+		280C18871FDC9C710069AEEF /* Railways.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 280C18851FDC9C710069AEEF /* Railways.xcdatamodeld */; };
+		280C18891FDC9C710069AEEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 280C18881FDC9C710069AEEF /* Assets.xcassets */; };
+		280C188C1FDC9C710069AEEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 280C188A1FDC9C710069AEEF /* LaunchScreen.storyboard */; };
+		280C18971FDC9C710069AEEF /* RailwaysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280C18961FDC9C710069AEEF /* RailwaysTests.swift */; };
+		280C18A21FDC9C710069AEEF /* RailwaysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280C18A11FDC9C710069AEEF /* RailwaysUITests.swift */; };
+		47B85C3582443B9602D5EF5A /* Pods_RailwaysUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF2345CECE55DB4CDBA1268F /* Pods_RailwaysUITests.framework */; };
+		5C51AF92808B5106CC3C32DC /* Pods_RailwaysTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F6731C3E14BDC4E4132AE4E /* Pods_RailwaysTests.framework */; };
+		D937AEF25CC0A058F2829FC4 /* Pods_Railways.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A51EF15D6DA5E37B9372BCFF /* Pods_Railways.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		280C18931FDC9C710069AEEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 280C18731FDC9C710069AEEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 280C187A1FDC9C710069AEEF;
+			remoteInfo = Railways;
+		};
+		280C189E1FDC9C710069AEEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 280C18731FDC9C710069AEEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 280C187A1FDC9C710069AEEF;
+			remoteInfo = Railways;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0202B8032FFF20D0994E54C1 /* Pods-Railways.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Railways.release.xcconfig"; path = "Pods/Target Support Files/Pods-Railways/Pods-Railways.release.xcconfig"; sourceTree = "<group>"; };
+		0C5BD4FAB9DB0A368A6C335F /* Pods-RailwaysTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RailwaysTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RailwaysTests/Pods-RailwaysTests.release.xcconfig"; sourceTree = "<group>"; };
+		1A87CF13FB532936F0BBAB7A /* Pods-RailwaysUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RailwaysUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RailwaysUITests/Pods-RailwaysUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		23CEC1BBD62D4DE246369183 /* Pods-RailwaysUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RailwaysUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RailwaysUITests/Pods-RailwaysUITests.release.xcconfig"; sourceTree = "<group>"; };
+		280C187B1FDC9C710069AEEF /* Railways.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Railways.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		280C187E1FDC9C710069AEEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		280C18801FDC9C710069AEEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		280C18831FDC9C710069AEEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		280C18861FDC9C710069AEEF /* Railways.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Railways.xcdatamodel; sourceTree = "<group>"; };
+		280C18881FDC9C710069AEEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		280C188B1FDC9C710069AEEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		280C188D1FDC9C710069AEEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		280C18921FDC9C710069AEEF /* RailwaysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RailwaysTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		280C18961FDC9C710069AEEF /* RailwaysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RailwaysTests.swift; sourceTree = "<group>"; };
+		280C18981FDC9C710069AEEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		280C189D1FDC9C710069AEEF /* RailwaysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RailwaysUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		280C18A11FDC9C710069AEEF /* RailwaysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RailwaysUITests.swift; sourceTree = "<group>"; };
+		280C18A31FDC9C710069AEEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D3AB91E754C0C1671DE8332 /* Pods-RailwaysTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RailwaysTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RailwaysTests/Pods-RailwaysTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4F7E82DAA0B41142AD3BEFB0 /* Pods-Railways.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Railways.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Railways/Pods-Railways.debug.xcconfig"; sourceTree = "<group>"; };
+		9F6731C3E14BDC4E4132AE4E /* Pods_RailwaysTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RailwaysTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A51EF15D6DA5E37B9372BCFF /* Pods_Railways.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Railways.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF2345CECE55DB4CDBA1268F /* Pods_RailwaysUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RailwaysUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		280C18781FDC9C710069AEEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D937AEF25CC0A058F2829FC4 /* Pods_Railways.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280C188F1FDC9C710069AEEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C51AF92808B5106CC3C32DC /* Pods_RailwaysTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280C189A1FDC9C710069AEEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47B85C3582443B9602D5EF5A /* Pods_RailwaysUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1883E3078A2E8528ECE87D1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A51EF15D6DA5E37B9372BCFF /* Pods_Railways.framework */,
+				9F6731C3E14BDC4E4132AE4E /* Pods_RailwaysTests.framework */,
+				DF2345CECE55DB4CDBA1268F /* Pods_RailwaysUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		280C18721FDC9C710069AEEF = {
+			isa = PBXGroup;
+			children = (
+				280C187D1FDC9C710069AEEF /* Railways */,
+				280C18951FDC9C710069AEEF /* RailwaysTests */,
+				280C18A01FDC9C710069AEEF /* RailwaysUITests */,
+				280C187C1FDC9C710069AEEF /* Products */,
+				AE476940B3ED592D7C67B18B /* Pods */,
+				1883E3078A2E8528ECE87D1D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		280C187C1FDC9C710069AEEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				280C187B1FDC9C710069AEEF /* Railways.app */,
+				280C18921FDC9C710069AEEF /* RailwaysTests.xctest */,
+				280C189D1FDC9C710069AEEF /* RailwaysUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		280C187D1FDC9C710069AEEF /* Railways */ = {
+			isa = PBXGroup;
+			children = (
+				280C187E1FDC9C710069AEEF /* AppDelegate.swift */,
+				280C18801FDC9C710069AEEF /* ViewController.swift */,
+				280C18821FDC9C710069AEEF /* Main.storyboard */,
+				280C18881FDC9C710069AEEF /* Assets.xcassets */,
+				280C188A1FDC9C710069AEEF /* LaunchScreen.storyboard */,
+				280C188D1FDC9C710069AEEF /* Info.plist */,
+				280C18851FDC9C710069AEEF /* Railways.xcdatamodeld */,
+			);
+			path = Railways;
+			sourceTree = "<group>";
+		};
+		280C18951FDC9C710069AEEF /* RailwaysTests */ = {
+			isa = PBXGroup;
+			children = (
+				280C18961FDC9C710069AEEF /* RailwaysTests.swift */,
+				280C18981FDC9C710069AEEF /* Info.plist */,
+			);
+			path = RailwaysTests;
+			sourceTree = "<group>";
+		};
+		280C18A01FDC9C710069AEEF /* RailwaysUITests */ = {
+			isa = PBXGroup;
+			children = (
+				280C18A11FDC9C710069AEEF /* RailwaysUITests.swift */,
+				280C18A31FDC9C710069AEEF /* Info.plist */,
+			);
+			path = RailwaysUITests;
+			sourceTree = "<group>";
+		};
+		AE476940B3ED592D7C67B18B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F7E82DAA0B41142AD3BEFB0 /* Pods-Railways.debug.xcconfig */,
+				0202B8032FFF20D0994E54C1 /* Pods-Railways.release.xcconfig */,
+				4D3AB91E754C0C1671DE8332 /* Pods-RailwaysTests.debug.xcconfig */,
+				0C5BD4FAB9DB0A368A6C335F /* Pods-RailwaysTests.release.xcconfig */,
+				1A87CF13FB532936F0BBAB7A /* Pods-RailwaysUITests.debug.xcconfig */,
+				23CEC1BBD62D4DE246369183 /* Pods-RailwaysUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		280C187A1FDC9C710069AEEF /* Railways */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 280C18A61FDC9C710069AEEF /* Build configuration list for PBXNativeTarget "Railways" */;
+			buildPhases = (
+				1716182251869FB7285C511E /* [CP] Check Pods Manifest.lock */,
+				280C18771FDC9C710069AEEF /* Sources */,
+				280C18781FDC9C710069AEEF /* Frameworks */,
+				280C18791FDC9C710069AEEF /* Resources */,
+				6413B0A25D72BC9B990DC0CE /* [CP] Embed Pods Frameworks */,
+				A1FC794D6B3510ECFFDE8544 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Railways;
+			productName = Railways;
+			productReference = 280C187B1FDC9C710069AEEF /* Railways.app */;
+			productType = "com.apple.product-type.application";
+		};
+		280C18911FDC9C710069AEEF /* RailwaysTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 280C18A91FDC9C710069AEEF /* Build configuration list for PBXNativeTarget "RailwaysTests" */;
+			buildPhases = (
+				4B29F1534BF5460B9653D6C9 /* [CP] Check Pods Manifest.lock */,
+				280C188E1FDC9C710069AEEF /* Sources */,
+				280C188F1FDC9C710069AEEF /* Frameworks */,
+				280C18901FDC9C710069AEEF /* Resources */,
+				85CD8D466B907897B2B447B1 /* [CP] Embed Pods Frameworks */,
+				5DEAC66B53F8E08452F733FA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				280C18941FDC9C710069AEEF /* PBXTargetDependency */,
+			);
+			name = RailwaysTests;
+			productName = RailwaysTests;
+			productReference = 280C18921FDC9C710069AEEF /* RailwaysTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		280C189C1FDC9C710069AEEF /* RailwaysUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 280C18AC1FDC9C710069AEEF /* Build configuration list for PBXNativeTarget "RailwaysUITests" */;
+			buildPhases = (
+				D94DF94F7786466220AF4502 /* [CP] Check Pods Manifest.lock */,
+				280C18991FDC9C710069AEEF /* Sources */,
+				280C189A1FDC9C710069AEEF /* Frameworks */,
+				280C189B1FDC9C710069AEEF /* Resources */,
+				A13A952BEA449E9E99C1C596 /* [CP] Embed Pods Frameworks */,
+				DD82905EC8CB57319CA737B6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				280C189F1FDC9C710069AEEF /* PBXTargetDependency */,
+			);
+			name = RailwaysUITests;
+			productName = RailwaysUITests;
+			productReference = 280C189D1FDC9C710069AEEF /* RailwaysUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		280C18731FDC9C710069AEEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = AvksentevMaks;
+				TargetAttributes = {
+					280C187A1FDC9C710069AEEF = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					280C18911FDC9C710069AEEF = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 280C187A1FDC9C710069AEEF;
+					};
+					280C189C1FDC9C710069AEEF = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 280C187A1FDC9C710069AEEF;
+					};
+				};
+			};
+			buildConfigurationList = 280C18761FDC9C710069AEEF /* Build configuration list for PBXProject "Railways" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 280C18721FDC9C710069AEEF;
+			productRefGroup = 280C187C1FDC9C710069AEEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				280C187A1FDC9C710069AEEF /* Railways */,
+				280C18911FDC9C710069AEEF /* RailwaysTests */,
+				280C189C1FDC9C710069AEEF /* RailwaysUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		280C18791FDC9C710069AEEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280C188C1FDC9C710069AEEF /* LaunchScreen.storyboard in Resources */,
+				280C18891FDC9C710069AEEF /* Assets.xcassets in Resources */,
+				280C18841FDC9C710069AEEF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280C18901FDC9C710069AEEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280C189B1FDC9C710069AEEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1716182251869FB7285C511E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4B29F1534BF5460B9653D6C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5DEAC66B53F8E08452F733FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RailwaysTests/Pods-RailwaysTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6413B0A25D72BC9B990DC0CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Railways/Pods-Railways-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85CD8D466B907897B2B447B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RailwaysTests/Pods-RailwaysTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A13A952BEA449E9E99C1C596 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RailwaysUITests/Pods-RailwaysUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1FC794D6B3510ECFFDE8544 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Railways/Pods-Railways-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D94DF94F7786466220AF4502 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DD82905EC8CB57319CA737B6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RailwaysUITests/Pods-RailwaysUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		280C18771FDC9C710069AEEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280C18811FDC9C710069AEEF /* ViewController.swift in Sources */,
+				280C18871FDC9C710069AEEF /* Railways.xcdatamodeld in Sources */,
+				280C187F1FDC9C710069AEEF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280C188E1FDC9C710069AEEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280C18971FDC9C710069AEEF /* RailwaysTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280C18991FDC9C710069AEEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280C18A21FDC9C710069AEEF /* RailwaysUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		280C18941FDC9C710069AEEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 280C187A1FDC9C710069AEEF /* Railways */;
+			targetProxy = 280C18931FDC9C710069AEEF /* PBXContainerItemProxy */;
+		};
+		280C189F1FDC9C710069AEEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 280C187A1FDC9C710069AEEF /* Railways */;
+			targetProxy = 280C189E1FDC9C710069AEEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		280C18821FDC9C710069AEEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				280C18831FDC9C710069AEEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		280C188A1FDC9C710069AEEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				280C188B1FDC9C710069AEEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		280C18A41FDC9C710069AEEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		280C18A51FDC9C710069AEEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		280C18A71FDC9C710069AEEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F7E82DAA0B41142AD3BEFB0 /* Pods-Railways.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E45L98V5WR;
+				INFOPLIST_FILE = Railways/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Railways;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		280C18A81FDC9C710069AEEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0202B8032FFF20D0994E54C1 /* Pods-Railways.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E45L98V5WR;
+				INFOPLIST_FILE = Railways/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Railways;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		280C18AA1FDC9C710069AEEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D3AB91E754C0C1671DE8332 /* Pods-RailwaysTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E45L98V5WR;
+				INFOPLIST_FILE = RailwaysTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RailwaysTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Railways.app/Railways";
+			};
+			name = Debug;
+		};
+		280C18AB1FDC9C710069AEEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C5BD4FAB9DB0A368A6C335F /* Pods-RailwaysTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E45L98V5WR;
+				INFOPLIST_FILE = RailwaysTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RailwaysTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Railways.app/Railways";
+			};
+			name = Release;
+		};
+		280C18AD1FDC9C710069AEEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A87CF13FB532936F0BBAB7A /* Pods-RailwaysUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E45L98V5WR;
+				INFOPLIST_FILE = RailwaysUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RailwaysUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Railways;
+			};
+			name = Debug;
+		};
+		280C18AE1FDC9C710069AEEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23CEC1BBD62D4DE246369183 /* Pods-RailwaysUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E45L98V5WR;
+				INFOPLIST_FILE = RailwaysUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RailwaysUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Railways;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		280C18761FDC9C710069AEEF /* Build configuration list for PBXProject "Railways" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280C18A41FDC9C710069AEEF /* Debug */,
+				280C18A51FDC9C710069AEEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		280C18A61FDC9C710069AEEF /* Build configuration list for PBXNativeTarget "Railways" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280C18A71FDC9C710069AEEF /* Debug */,
+				280C18A81FDC9C710069AEEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		280C18A91FDC9C710069AEEF /* Build configuration list for PBXNativeTarget "RailwaysTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280C18AA1FDC9C710069AEEF /* Debug */,
+				280C18AB1FDC9C710069AEEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		280C18AC1FDC9C710069AEEF /* Build configuration list for PBXNativeTarget "RailwaysUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280C18AD1FDC9C710069AEEF /* Debug */,
+				280C18AE1FDC9C710069AEEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		280C18851FDC9C710069AEEF /* Railways.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				280C18861FDC9C710069AEEF /* Railways.xcdatamodel */,
+			);
+			currentVersion = 280C18861FDC9C710069AEEF /* Railways.xcdatamodel */;
+			path = Railways.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 280C18731FDC9C710069AEEF /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_Railways {
+  umbrella header "Pods-Railways-umbrella.h"
+
+  export *
+  module * { export * }
+}
